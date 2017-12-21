@@ -1,0 +1,28 @@
+html,
+body,
+#root,
+.body {
+  height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Anton|EB+Garamond');
+
+:root {
+  --cornflowerblue: #6495ed;
+  --gray: #d8d8d8;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Anton', sans-serif;
+}
+
+p,
+a,
+li,
+ul,
+span {
+  font-family: 'EB Garamond', serif;
+}

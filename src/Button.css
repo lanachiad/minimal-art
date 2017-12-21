@@ -1,0 +1,24 @@
+.button {
+  background-color: var(--gray);
+  border: 2px #000 solid;
+  border-radius: 10px;
+  color: #000;
+  cursor: pointer;
+  display: block;
+  font-weight: bold;
+  margin: 40px auto 0;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.5s, border 0.5s;
+  -webkit-transition: background-color 0.5s, border 0.5s; /* Safari */
+  width: 150px;
+}
+
+.button:hover {
+  background-color: #000;
+  border: 2px var(--gray) solid;
+  color: var(--gray);
+  transition: background-color 0.5s, border 0.5s;
+  -webkit-transition: background-color 0.5s, border 0.5s; /* Safari */
+}

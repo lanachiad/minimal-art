@@ -1,0 +1,69 @@
+body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  background-color: white;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.column-one,
+.column-two {
+  width: 42%;
+}
+
+.first-row,
+.second-row,
+.third-row {
+  display: flex;
+  width: 100%;
+}
+
+.first-row,
+.third-row {
+  height: 280px;
+}
+
+.second-row {
+  height: 180px;
+}
+
+.vertical-line {
+  background-color: black;
+  height: 100%;
+  width: 20px;
+}
+
+.horizontal-line {
+  background-color: black;
+  height: 20px;
+  width: 100%;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+  border-bottom: 20px black solid;
+  height: 75%;
+}
+
+.yellow {
+  background-color: yellow;
+  border-right: 20px black solid;
+  width: 10%;
+}
+
+.last-second-white {
+  width: 30%;
+}
+
+.blue-white {
+  border-right: 20px black solid;
+  width: 30%;
+}
